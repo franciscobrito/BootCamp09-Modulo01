@@ -19,7 +19,7 @@ function checkIdProject(req, res, next){
 }
 
 function requisicao(req, res, next) {
-    qrtResquest++;
+    qrtResquests++;
     console.log(`Quantidade de requisições ${qrtResquests}`);
     return next();
 }
